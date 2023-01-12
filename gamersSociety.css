@@ -1,0 +1,119 @@
+body{
+
+    background-image: url("Images/background/zeldaBackground.jpg");
+    /* Full height */
+    height: 100%;
+
+    background-attachment: fixed;
+    overscroll-behavior-y: none;
+
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.topBanner{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    padding-top: 0%;
+    
+    display: block; 
+    resize: none;
+    
+    width: 91%;
+    height: 50%;
+
+}
+
+.centerText{
+
+    resize: none;
+    font-size: 200%;
+    text-align: center;
+    color: rgb(255, 255, 255) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gameName{
+
+    resize: none;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    color: #A46E3D;
+    background-color: rgba(0, 0, 0, 0.40);
+
+    font-size: 160%;
+}
+
+.imageRules{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px inset #000000;
+    display: block; 
+    resize: none;
+
+    width: 80%;
+    height: 40%;
+}
+
+.backgroundBorder{
+    
+    position:absolute;
+
+    border-collapse: collapse;
+
+    margin-top: -1%;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-bottom: -1%;
+
+    background-color: rgb(0, 0, 0, .80);
+    
+}
+
+.gamePageBorderDesign{
+
+    position:absolute;
+    border-collapse: collapse;
+    background-color: rgb(0, 0, 0, .85);
+}
+
+.gameDescription{
+    
+    color: #38B6FF;
+    font-size: 150%;
+    text-align: center;   
+    border: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.youtubeVideo{
+    
+    width: 560;
+    height: 400;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.specTitles{
+
+    color:cornflowerblue;
+}
+
+.specsDescription{
+    color: white;
+    font-size: 90%;
+    text-align: left;   
+}
